@@ -5,8 +5,8 @@ Cloudflare Authenticated Origin Pulls (AOP) CLI tool.
 ## Install
 
 ```bash
-git clone https://github.com/taslabs-net/aop.git
-cd aop
+curl -O https://raw.githubusercontent.com/taslabs-net/aop/main/cfaop.py
+chmod +x cfaop.py
 pip install requests
 ```
 
@@ -54,12 +54,6 @@ ssl_verify_client on;
 ```apache
 SSLCACertificateFile /path/to/cloudflare-ca.pem
 SSLVerifyClient require
-```
-
-## Testing
-
-```bash
-python3 -m unittest test_cfaop
 ```
 
 ## Support
