@@ -1,6 +1,4 @@
-# cfaop
-
-Cloudflare Authenticated Origin Pulls (AOP) CLI tool.
+# Cloudflare Authenticated Origin Pull (AOP) CLI
 
 ## Install
 
