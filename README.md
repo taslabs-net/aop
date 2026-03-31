@@ -2,13 +2,18 @@
 
 Cloudflare Authenticated Origin Pulls (AOP) CLI tool.
 
-## Setup
+## Install
 
 ```bash
-# Install
+git clone https://github.com/taslabs-net/aop.git
+cd aop
 pip install requests
+```
 
-# Authenticate (choose one)
+## Authenticate
+
+```bash
+# Choose one method:
 export CLOUDFLARE_API_TOKEN="your-token"          # API Token (recommended)
 # OR
 export CLOUDFLARE_API_KEY="your-global-api-key"   # Global API Key
